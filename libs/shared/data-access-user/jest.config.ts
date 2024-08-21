@@ -1,9 +1,9 @@
 /* eslint-disable */
 export default {
-  displayName: 'ng-mf',
-  preset: '../../jest.preset.js',
+  displayName: 'data-access-user',
+  preset: '../../../jest.preset.js',
   setupFilesAfterEnv: ['<rootDir>/src/test-setup.ts'],
-  coverageDirectory: '../../coverage/apps/ng-mf',
+  coverageDirectory: '../../../coverage/libs/shared/data-access-user',
   transform: {
     '^.+\\.(ts|mjs|js|html)$': [
       'jest-preset-angular',

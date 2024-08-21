@@ -3353,11 +3353,14 @@ __metadata:
     "@angular/platform-browser": ~18.2.0
     "@angular/platform-browser-dynamic": ~18.2.0
     "@angular/router": ~18.2.0
+    "@module-federation/enhanced": ~0.2.3
     "@nx/angular": 19.6.1
     "@nx/eslint": 19.6.1
     "@nx/eslint-plugin": 19.6.1
     "@nx/jest": 19.6.1
     "@nx/js": 19.6.1
+    "@nx/web": 19.6.1
+    "@nx/webpack": 19.6.1
     "@nx/workspace": 19.6.1
     "@schematics/angular": ~18.2.0
     "@swc-node/register": ~1.9.1
