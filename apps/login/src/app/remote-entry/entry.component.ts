@@ -3,13 +3,15 @@ import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { UserService } from '@ng-mf/data-access-user';
 import { Observable } from 'rxjs';
+import { HeaderComponent } from '@ng-mf/header';
 
 @Component({
   standalone: true,
-  imports: [CommonModule, FormsModule],
+  imports: [CommonModule, FormsModule, HeaderComponent],
   selector: 'ng-mf-login-entry',
   template: `
     <div class="login-app">
+      <lib-header></lib-header>
       <form class="login-form" (ngSubmit)="login()">
         <label>
           Username:

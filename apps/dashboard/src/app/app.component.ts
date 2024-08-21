@@ -4,10 +4,11 @@ import { Router, RouterModule } from '@angular/router';
 import { UserService } from '@ng-mf/data-access-user';
 import { Observable } from 'rxjs';
 import { distinctUntilChanged } from 'rxjs/operators';
+import { HeaderComponent } from '@ng-mf/header';
 
 @Component({
   standalone: true,
-  imports: [CommonModule, RouterModule],
+  imports: [CommonModule, RouterModule, HeaderComponent],
   selector: 'ng-mf-root',
   templateUrl: './app.component.html',
 })
